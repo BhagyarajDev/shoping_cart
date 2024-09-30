@@ -1,0 +1,65 @@
+/* Cart.css */
+
+/* Style the cart item cards */
+.cart-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.cart-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-image {
+    border-radius: 8px 0 0 8px;
+    height: 150px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensures the image covers the set height while maintaining aspect ratio */
+    width: 150px;
+}
+
+/* Quantity controls */
+.cart-quantity {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/* Order summary styles */
+.order-summary {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.order-summary .total-amount {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Add some padding to the main container */
+.container {
+    padding-bottom: 50px;
+}
